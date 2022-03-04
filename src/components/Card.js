@@ -1,10 +1,10 @@
 // src/Card.js
 
-import logo from './logo.svg'
+//import logo from './logo.svg'
 import './Card.css'
 
 function Card(props) {
-  const { name, image, address } = props
+  const { name, image, description } = props
   return (
     <div>
       <img
@@ -13,8 +13,8 @@ function Card(props) {
         height="300"
         alt="Hello"
       />
-        <h1>{name}</h1>
-      <div>{address}</div>
+        <h2>{name}</h2>
+      <div>{description}</div>
     </div>
   )
 }
