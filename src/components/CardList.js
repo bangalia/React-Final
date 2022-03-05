@@ -1,27 +1,27 @@
 // src/CardList.js
+import React from 'react';
 import './CardList.css'
 import Card from './Card';
+import data from './/card-data.json'
 
 function CardList() {
+  
+  const cards = data.map(( { title, desc, images } ) => {
     return (
-        <div className="CardList">
-          <Card
-            name="Fun Fact"
-            description="There are more than 400 species of aloe vera"
-            image="aloe.jpg"
-          />
-          <Card
-            name="Did you know?"
-            description="Aloe vera plants grow over 3ft tall."
-            image="gel.jpg"
-          />
-          <Card
-            name="Fun Fact"
-            description="Aloe vera has been used for over 6,000 years!"
-            image="egypt.jpg"
-          />
-        </div>
+      <Card
+        name={title}
+        description={desc}
+        image={images[0]}
+      />
     )
+  })
+
+  return (
+    <div className="CardList">
+      { cards }
+    </div>
+  )
 }
+
   
 export default CardList

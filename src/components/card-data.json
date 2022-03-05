@@ -1,0 +1,26 @@
+[
+    {
+       "title":"Fun Fact",
+       "desc":"There are more than 400 species of aloe vera",
+       "images":[
+          "aloe.jpg"
+       ]
+       
+    },
+    {
+       "title":"Did you know?",
+       "desc":"Aloe vera plants grow over 3ft tall.",
+       "images":[
+          "gel.jpg"
+       ]
+    
+    },
+    {
+       "title":"Historical Fact",
+       "desc":"Aloe vera has been used for over 6,000 years!",
+       "images":[
+          "egypt.jpg"
+       ]
+       
+    }
+  ]

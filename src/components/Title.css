@@ -1,16 +1,17 @@
 /*  src/Title.css  */
 .Title {
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding: 1em;
-  margin-bottom: 2em;
   background-color: rgb(14, 117, 20);
   color: #fff;
-}
+  margin-top: -25px;
+  height: 100%;
+  padding: 20px;
+};
 
-.Title-Subtitle {
-  color: rgba(255, 255, 255, 0.75);
+.Heading h1 {
+  margin-bottom: 0;
+}
+  
+.Name {
+  padding-top: 0;
+  margin-top: 0;
 }

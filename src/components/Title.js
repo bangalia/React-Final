@@ -5,7 +5,7 @@ function Title() {
   return (
     <div className="Title">
       <h1>Aloe Vera</h1>
-			<div className="Title-Subtitle">Your place for aloe vera knowledge</div>
+			<div className="Name">Your place for aloe vera knowledge</div>
     </div>
   )
 }
